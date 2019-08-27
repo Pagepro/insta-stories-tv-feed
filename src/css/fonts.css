@@ -1,0 +1,19 @@
+/* proxima-nova */
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: normal;
+
+    src: url('../fonts/proxima-nova-regular.otf'),
+    url('../fonts/proxima-nova-regular.woff2') format('woff2'),
+    url('../fonts/proxima-nova-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: 700;
+    font-style: normal;
+
+    src: url('../fonts/proxima-nova-bold.otf'),
+    url('../fonts/proxima-nova-bold.woff2') format('woff2'),
+    url('../fonts/proxima-nova-bold.woff') format('woff');
+}

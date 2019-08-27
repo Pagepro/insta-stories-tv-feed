@@ -1,0 +1,32 @@
+.c-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-slider__background {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+
+  background-size: cover;
+  background-position: 50% 50%;
+
+  filter: blur(10px);
+}
+
+.c-slider:after {
+  content: '';
+  position: absolute;
+  height: 80%;
+  width: 50px;
+
+  top: 10%;
+  left: 30px;
+
+  background-color: #002739;
+
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
