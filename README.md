@@ -6,15 +6,19 @@
 
 go to the selected media folder, then type:
 
-`tree -Jf > ../src/media.js`
+`tree -Jf > ../../src/media.js`
 
 Then, you'll need to add `module.exports = ` before the generated array in the `media.js` file
+
+Then, you'll need to change directories in `/src/config.js` to match your media catalogue
+
+You can also change the default background image placeholder for videos in `/src/config.js`
 
 Notice: the directory has to be max. 2 levels deep
 
 Notice: sample directory with data is added to repo `/public/media`
 
-## ...
+##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

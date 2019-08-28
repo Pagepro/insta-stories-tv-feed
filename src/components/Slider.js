@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import Slide from './Slide'
 import '../css/iphone.css'
 import '../css/slider.css'
+import config from '../config.js'
 
-const defaultSlideBackground = 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
+const defaultSlideBackground = config.videoBackgroundPlaceholder
+const mediaUrl = config.mediaFolder
 
-const mediaUrl = './media/'
-// to generate json from directory
-// tree -Jf > ../media.json
 const filesJson = require('../media.js')[0].contents
 const filesArray = filesJson.map(elem => {
   let element
