@@ -11,6 +11,7 @@ go to the selected media folder, then type:
 Then, you'll need to add `module.exports = ` before the generated array in the `media.js` file
 
 Notice: the directory has to be max. 2 levels deep
+
 Notice: sample directory with data is added to repo `/public/media`
 
 ## ...
