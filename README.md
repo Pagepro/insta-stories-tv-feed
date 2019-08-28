@@ -1,3 +1,17 @@
+## To create a list of files, you'll need to install `tree`
+
+`brew install tree`
+
+### Then, to create JSON from directory tree, type:
+
+`tree -Jf > ../media.js`
+
+Then, you'll need to add `module.exports = ` before the generated array
+
+Notice: the directory has to be max. 2 levels deep
+
+## ...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
