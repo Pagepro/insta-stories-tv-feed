@@ -6,7 +6,7 @@
 
 1. Go to the selected media folder and type: `tree -Jf > ../../src/media.js` to generate JSON list of files in directories
 
-2. Add `module.exports = ` to the beginning of the `media.js` file (so the module exports the whole Array of Objects)
+2. Edit `/src/media.js` file and add `module.exports = ` to the beginning of the file (so the module exports the whole Array of Objects)
 
 3. Change directories in `/src/config.js` to match your media directory.<br>
 Example: if your folder's in `/public/media`, type `../media/`
