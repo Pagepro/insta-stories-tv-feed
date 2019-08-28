@@ -4,19 +4,17 @@
 
 ### Then, to create JSON from directory tree:
 
-go to the selected media folder, then type:
+1. Go to the selected media folder and type: `tree -Jf > ../../src/media.js`
 
-`tree -Jf > ../../src/media.js`
+2. Add `module.exports = ` to the beginning of the `media.js` file (so the module exports the whole Array of Objects)
 
-Then, you'll need to add `module.exports = ` before the generated array in the `media.js` file
+3. Change directories in `/src/config.js` to match your media directory
 
-Then, you'll need to change directories in `/src/config.js` to match your media catalogue
+#### You can also change the default background image placeholder for videos in `/src/config.js`
 
-You can also change the default background image placeholder for videos in `/src/config.js`
+#### Notice: the directory has to be max. 2 levels deep
 
-Notice: the directory has to be max. 2 levels deep
-
-Notice: sample directory with data is added to repo `/public/media`
+#### Notice: sample directory with data is added to repo `/public/media`
 
 ##
 
